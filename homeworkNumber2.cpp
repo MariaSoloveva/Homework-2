@@ -2,7 +2,7 @@
 #include <string>
 #include <math.h>
 
-int main() {   
+int main(){
     int n;
     std::cout << "Введите число" << std::endl;
     std::cin >> n;
