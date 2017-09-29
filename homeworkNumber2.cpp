@@ -3,8 +3,8 @@
 #include <math.h>
 
 int main(){
-    int n;
     std::cout << "Введите число" << std::endl;
+    int n;
     std::cin >> n;
     n = fmod(n, 100) * 10 + n / 100;
     std::cout << n << std::endl;
